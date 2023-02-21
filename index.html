@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reto 1</title>
+</head>
+<body>
+    
+    <article class="container">
+    <form class="form" action="">
+    <div id="imagen" class="imagen">
+        <img class="img" id="img" src="./img/compu_an.png" alt="computador">
+    </div> 
+    
+    <h1>Computador Portatil Gamer</h1>
+
+    <input 
+    type="number" 
+    id="cantidad"
+    class="cantidad"
+    placeholder="Ingrese la cantidad"
+    required
+    >
+    <select name="select" id="selectColor" class="selectColor" required>
+        <option value="seleccione">Seleccione color</option>
+        <option value="negro">Negro</option>
+        <option value="grisoscuro">Gris oscuro</option>
+        <option value="grisclaro">Gris claro</option>
+        <option value="azul">Azul</option>
+    </select>
+
+    <p class="precio"> Precio: $5.000.000</p>
+
+    <button type="button" class="boton" id="boton">Calcular</button>
+    </form>
+
+        <article id="datosCompra" class="datosCompra">
+        <div id="card-body" class="card-body">
+            <p class="total-cantidad">Cantidad: 0</p>
+            <p class="text-color">Color</p>
+            <div class="color">0</div>
+            <h3 class="total">Total: $0</h3>
+        </div>
+    </article>
+    
+    
+    </article>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

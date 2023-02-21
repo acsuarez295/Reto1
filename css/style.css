@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 2%;
+    font-size: 22px;
+    width: 60%;
+    height: auto;
+}  
+h1{
+    padding: 20px 0px;
+    color: black;
+    font-size: 29px;
+    margin-top: -5px;
+}  
+.img{
+    width: 300px;
+    height:250px;
+    margin: 0 auto;
+    padding: 2px;
+    margin:0px;
+} 
+form{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    background-color: #E5F2C9;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid #8B9B72;
+}   
+form>input, select, .precio, button{
+    display: inline-block;
+    width: 80%;
+    font-size: 20px;
+    margin: 10px 0;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}   
+.precio{
+    color: black;
+    font-size: 25px;text-align: left;
+}          
+input, select{
+   border: 2px solid #FDFFF6;
+}             
+button{
+    background-color: #F2BDD7;
+    border:2px solid #A6798E;
+    font-size: 25px;
+    margin-bottom: 5%;
+    box-shadow: 3px 2px 2px black;
+    width: 40%;
+}   
+.datosCompra{
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 30%;
+    height: auto;
+    text-align: left;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #A6798E;
+    border:2px solid #F2BDD7;
+    text-align: left;
+}       
+h2{
+    text-align: center;
+    color: #FDFFF6;
+    font-size: 25px;
+}
+div> h2, h3, .total, .total-cantidad ,.text-color, .color{
+    display: inline-block;
+    width: 100%;
+    font-size: 23px;
+    color: #F2BDD7;
+}     
+.text-color, .color{
+    width: auto;
+    display: inline-block;
+}  
+.color{
+    width: 10%;
+    height: 9%;
+    background-color: black;
+    border-radius: 100%;
+    color: transparent;
+} 
+.azul{
+    background-color: #003879;
+}
+.grisclaro{
+    background-color:#b8b8b8;
+}
+.grisoscuro{
+    background-color: #636363;
+}
+
+
